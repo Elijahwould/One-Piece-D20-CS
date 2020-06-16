@@ -1,0 +1,1483 @@
+<div>
+	<!-- Set up the Tabs -->
+	<input type="radio" class="sheet-tab sheet-tab1" name="attr_core-tab" value="1" title="Stats" checked="checked"/> 
+	<span class="sheet-tab sheet-tab1" style='line-height: 40px;'>STATS</span>
+	<input type="radio" class="sheet-tab sheet-tab2" name="attr_core-tab" value="2" title="Inventory"/> 
+	<span class="sheet-tab sheet-tab2" style='line-height: 40px;'>INVENTORY</span>
+	<input type="radio" class="sheet-tab sheet-tab3" name="attr_core-tab" value="3" title="Feats"/> 
+	<span class="sheet-tab sheet-tab3" style='line-height: 40px;'>FEATS</span>
+	<input type="radio" class="sheet-tab sheet-tab4" name="attr_core-tab" value="4" title="Notes"/> 
+	<span class="sheet-tab sheet-tab4" style='line-height: 40px;'>NOTES</span>
+	<!-- End Tab setup -->
+
+    <div class="sheet-section-core"><!-- Stats Tab -->
+    <img src="https://i.ibb.co/BLLxmY8/one-piece-logo-by-zerocustom1989-d1dghop.png">
+        <div class="ritz grid-container" dir="ltr">
+<table class="waffle" cellspacing="0" cellpadding="0">
+<thead>
+<tr>
+    <th class="row-header freezebar-origin-ltr"></th>
+    <th id="696360236C0" style="width:95px" class="column-headers-background"></th>
+    <th id="696360236C1" style="width:29px" class="column-headers-background"></th>
+    <th id="696360236C2" style="width:29px" class="column-headers-background"></th>
+    <th id="696360236C3" style="width:60px" class="column-headers-background"></th>
+    <th id="696360236C4" style="width:60px" class="column-headers-background"></th>
+    <th id="696360236C5" style="width:60px" class="column-headers-background"></th>
+    <th id="696360236C6" style="width:60px" class="column-headers-background"></th>
+    <th id="696360236C7" style="width:60px" class="column-headers-background"></th>
+    <th id="696360236C8" style="width:30px" class="column-headers-background"></th>
+    <th id="696360236C9" style="width:68px" class="column-headers-background"></th>
+    <th id="696360236C10" style="width:45px" class="column-headers-background"></th>
+    <th id="696360236C11" style="width:64px" class="column-headers-background"></th>
+    <th id="696360236C12" style="width:27px" class="column-headers-background"></th>
+</tr></thead><tbody>
+<tr style='height:20px;'><th id="696360236R0" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s0" dir="ltr">Player</td>
+    <td class="s1" dir="ltr" colspan="3"><form><input type="text" style="width:100px" name="attr_player"></form></td>
+    <td class="s0" dir="ltr" colspan="2">Character</td>
+    <td class="s1" dir="ltr" colspan="2"><form><input type="text" style="width:100px" name="attr_character"></form></td>
+    <td class="s0" dir="ltr" colspan="2">Beli</td>
+    <td class="s2" dir="ltr" colspan="2"><form><input type="text" style="width:100px" name="attr_beli"></form></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R1" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s0" dir="ltr">Race</td>
+    <td class="s1" dir="ltr" colspan="3"><form><input type="text" style="width:100px" name="attr_race"></form></td>
+    <td class="s0" dir="ltr" colspan="2">Class</td>
+    <td class="s1" dir="ltr" colspan="2"><form><input type="text" style="width:100px" name="attr_class"></form></td>
+    <td class="s0" dir="ltr" colspan="2">Size</td>
+    <td class="s2" dir="ltr" colspan="2"><form><input type="text" style="width:100px" name="attr_size"></form></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R2" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s0" dir="ltr">Gender</td>
+    <td class="s1" dir="ltr" colspan="3"><form><input type="text" style="width:100px" name="attr_gender"></form></td>
+    <td class="s0" dir="ltr" colspan="2">age</td>
+    <td class="s1" dir="ltr" colspan="2"><form><input type="text" style="width:100px" name="attr_age"></form></td>
+    <td class="s0" dir="ltr" colspan="2">Hair</td>
+    <td class="s2" dir="ltr" colspan="2"><form><input type="text" style="width:100px" name="attr_hair"></form></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R3" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s0" dir="ltr">Eye color</td>
+    <td class="s1" dir="ltr" colspan="3"><form><input type="text" style="width:100px" name="attr_eyecolour"></form></td>
+    <td class="s0" dir="ltr" colspan="2">Height / Weight</td>
+    <td class="s1" dir="ltr" colspan="2"><form><input type="text" style="width:100px" name="attr_heightweight"></form></td>
+    <td class="s0" dir="ltr" colspan="2">Level</td>
+    <td class="s2" dir="ltr" colspan="2"><form><input type="text" style="width:100px" name="attr_level"></form></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R4" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s0" dir="ltr">Prestige</td>
+    <td class="s1" dir="ltr" colspan="3"><form><input type="text" style="width:100px" name="attr_prestige"></form></td>
+    <td class="s0" dir="ltr" colspan="2">Disadvantage 1</td>
+    <td class="s1" dir="ltr" colspan="2"><form><input type="text" style="width:100px" name="attr_disadvantage"></form></td>
+    <td class="s0" dir="ltr" colspan="2">EXP</td>
+    <td class="s2" dir="ltr" colspan="2"><form><input type="text" style="width:100px" name="attr_exp"></form></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R5" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s0" dir="ltr">Career</td>
+    <td class="s1" dir="ltr" colspan="3"><form><input type="text" style="width:100px" name="attr_career"></form></td>
+    <td class="s0" dir="ltr" colspan="2">Disadvantage 2</td>
+    <td class="s1" dir="ltr" colspan="2"><form><input type="text" style="width:100px" name="attr_disadvantage2"></form></td>
+    <td class="s0" dir="ltr" colspan="2">Alignment</td>
+    <td class="s2" dir="ltr" colspan="2"><form><input type="text" style="width:100px" name="attr_alignment"></form></td>
+    <td></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R6" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s4" dir="ltr">Prestige Career</td>
+    <td class="s5" dir="ltr" colspan="3"><form><input type="text" style="width:100px" name="attr_prestigecareer"></form></td>
+    <td class="s4" dir="ltr" colspan="2">Disadvantage 3</td>
+    <td class="s5" dir="ltr" colspan="2"><form><input type="text" style="width:100px" name="attr_disadvantage3"></form></td>
+    <td class="s4" dir="ltr" colspan="2">Devil Fruit</td>
+    <td class="s6" dir="ltr" colspan="2"><form><input type="text" style="width:100px" name="attr_DF"></form></td>
+    <td></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R7" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td class="s7"></td>
+    <td class="s7"></td>
+    <td class="s7"></td>
+    <td></td>
+</tr>
+</tbody></table>
+<table class="waffle" cellspacing="0" cellpadding="0">
+<thead>
+<tr>
+    <th class="row-header freezebar-origin-ltr"></th>
+    <th id="696360236C0" style="width:130px" class="column-headers-background"></th>
+    <th id="696360236C1" style="width:50px" class="column-headers-background"></th>
+    <th id="696360236C2" style="width:50px" class="column-headers-background"></th>
+    <th id="696360236C3" style="width:50px" class="column-headers-background"></th>
+    <th id="696360236C4" style="width:50px" class="column-headers-background"></th>
+    <th id="696360236C5" style="width:50px" class="column-headers-background"></th>
+    <th id="696360236C6" style="width:50px" class="column-headers-background"></th>
+    <th id="696360236C7" style="width:50px" class="column-headers-background"></th>
+    <th id="696360236C8" style="width:30px" class="column-headers-background"></th>
+    <th id="696360236C9" style="width:68px" class="column-headers-background"></th>
+    <th id="696360236C10" style="width:45px" class="column-headers-background"></th>
+    <th id="696360236C11" style="width:64px" class="column-headers-background"></th>
+    <th id="696360236C12" style="width:27px" class="column-headers-background"></th>
+</tr></thead><tbody>
+<tr style='height:20px;'><th id="696360236R8" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s8" dir="ltr" colspan="8"><img src="https://i.ibb.co/w4X1pDh/Primaryskills.png"></td>
+    <td class="s8"></td>
+    <td class="s4" dir="ltr">Attribute</td>
+    <td class="s0" dir="ltr">Score</td>
+    <td class="s9" dir="ltr">Modifier</td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R9" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s10" dir="ltr">Skill Name</td>
+    <td class="s10" dir="ltr">F</td>
+    <td class="s10" dir="ltr">P. Att</td>
+    <td class="s9" dir="ltr">Total</td>
+    <td class="s10" dir="ltr">Att. Mod</td>
+    <td class="s10" dir="ltr">Rank</td>
+    <td class="s11" dir="ltr">Misc. 1</td>
+    <td class="s11" dir="ltr">Misc. 2</td>
+    <td class="s8"></td><td class="s12" dir="ltr">STR</td>
+    <td class="s2" dir="ltr"><input type="text" style="width:35px" name="attr_str"></form></td>
+    <td class="s13"><input type="text" style="width:35px" name="attr_str_mod"></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R10" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s12" dir="ltr"><button type='roll' name='roll_WeaponAtt' value='&{template:5eAttack} {{name=@{character_name}}} {{subtags=@{mainwepname}, @{maintype}}} {{attack=[[1d20+@{WATotal}]]}} {{attackadv=[[1d20+@{WATotal}]]}} {{damage=[[@{MainDMG}+@{MainAttMod}]]}} {{dmgcrit=?{Critical Damage|
+	Double Crit, Double Citrical [[@{MainDMG}]] |
+	Triple Crit, Triple Critical [[@{MainDMG} + @{MainDMG}]]
+}}}'></button>Weapon Attack</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_WAF' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_WAPAtt"></form></td>
+    <td class="s14"><input type="text" style="width:40px" name="attr_WATotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_WAAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_WARank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_WAMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_WAMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s12" dir="ltr">DEX</td>
+    <td class="s2" dir="ltr"><input type="text" style="width:35px" name="attr_dex"></form></td>
+    <td class="s13"><input type="text" style="width:35px" name="attr_dex_mod"></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R11" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s12" dir="ltr"><button type='roll' name='roll_UnaStrike' value='&{template:5eAttack} {{name=@{character_name}}} {{subtags=@{mainwepname}, @{maintype}}} {{attack=[[1d20+@{UASTotal}]]}} {{attackadv=[[1d20+@{UASTotal}]]}} {{damage=[[@{MainDMG}+@{MainAttMod}]]}} {{dmgcrit=?{Critical Damage|
+	Double Crit, Double Citrical [[@{MainDMG}]] |
+	Triple Crit, Triple Critical [[@{MainDMG} + @{MainDMG}]]
+}}}'></button>Unarmed Strike</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_UASF' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_UASPAtt"></form></td>
+    <td class="s14"><input type="text" style="width:40px" name="attr_UASTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_UASAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_UASRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_UASMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_UASMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s12" dir="ltr">CON</td>
+    <td class="s2" dir="ltr"><input type="text" style="width:35px" name="attr_con"></form></td>
+    <td class="s13"><input type="text" style="width:35px" name="attr_con_mod"></form></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R12" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s12" dir="ltr"><button type='roll' name='roll_RAS' value='&{template:5eAttack} {{name=@{character_name}}} {{subtags=@{mainwepname}, @{maintype}}} {{attack=[[1d20+@{RATotal}]]}} {{attackadv=[[1d20+@{RATotal}]]}} {{damage=[[@{MainDMG}+@{MainAttMod}]]}} {{dmgcrit=?{Critical Damage|
+	Double Crit, Double Citrical [[@{MainDMG}]] |
+	Triple Crit, Triple Critical [[@{MainDMG} + @{MainDMG}]]
+}}}'></button>Ranged Shot</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_RAF' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_RAPAtt"></form></td>
+    <td class="s14"><input type="text" style="width:40px" name="attr_RATotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_RAAMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_RARank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_RAMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_RAMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s12" dir="ltr">INT</td>
+    <td class="s15" dir="ltr"><input type="text" style="width:35px" name="attr_int"></form></td>
+    <td class="s13"><input type="text" style="width:35px" name="attr_int_mod"></form></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R13" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s12" dir="ltr"><button type='roll' name='roll_Deff' value='&{template:PSkillCheck} {{name=@{character_name}}} {{subtags=Defence}} {{roll=[[1d20 + @{DefTotal}]]}}'></button>Defence</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_DefF' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_DefPAtt"></form></td>
+    <td class="s14"><input type="text" style="width:40px" name="attr_DefTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_DefAMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_DefRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_DefMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_DefMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s12" dir="ltr">WIS</td>
+    <td class="s2" dir="ltr"><input type="text" style="width:35px" name="attr_wis"></form></td>
+    <td class="s13"><input type="text" style="width:35px" name="attr_wis_mod"></form></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R14" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s12" dir="ltr"><button type='roll' name='roll_Ini' value='&{template:PSkillCheck} {{name=@{character_name}}} {{subtags=Initiative}} {{roll=[[1d20 + @{IniTotal}]]}}'></button>Initiative</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_IniF' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_IniPAtt"></form></td>
+    <td class="s14"><input type="text" style="width:40px" name="attr_IniTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_IniAMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_IniRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_IniMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_IniMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s12" dir="ltr">CHA</td>
+    <td class="s6" dir="ltr"><input type="text" style="width:35px" name="attr_cha"></form></td>
+    <td class="s16"><input type="text" style="width:35px" name="attr_cha_mod"></form></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R15" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s12" dir="ltr"><button type='roll' name='roll_FortSave' value='&{template:PSkillCheck} {{name=@{character_name}}} {{subtags=Fortitude Save}} {{roll=[[1d20 + @{FortSTotal}]]}}'></button>Fortitude Save</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_FortSF' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_FortSPAtt"></form></td>
+    <td class="s14"><input type="text" style="width:40px" name="attr_FortSTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_FortSAMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_FortSRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_FortSMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_FortSMisc2"></form></td>
+    <td class="s3"></td>
+    <td class="s7"></td><td class="s7"></td>
+    <td class="s7"></td><td></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R16" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s12" dir="ltr"><button type='roll' name='roll_ReflexSave' value='&{template:PSkillCheck} {{name=@{character_name}}} {{subtags=Reflex Save}} {{roll=[[1d20 + @{ReflexSTotal}]]}}'></button>Reflex Save</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_ReflexSF' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_ReflexSPAtt"></form></td>
+    <td class="s14"><input type="text" style="width:40px" name="attr_ReflexSTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_ReflexSAMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_ReflexSRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_ReflexSMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_ReflexSMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s4" dir="ltr">Stance</td>
+    <td class="s17" dir="ltr" colspan="2"><form><input type="text" style="width:100px" name="attr_Stance"></form></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R17" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s12" dir="ltr"><button type='roll' name='roll_WillSave' value='&{template:PSkillCheck} {{name=@{character_name}}} {{subtags=Will Save}} {{roll=[[1d20 + @{WillSTotal}]]}}'></button>Will Save</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_WillSF' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_WillSPAtt"></form></td>
+    <td class="s18"><input type="text" style="width:40px" name="attr_WillSTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_WillSAMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_WillSRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_WillSMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_WillSMisc2"></form></td>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td class="s3"></td><td></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R18" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7"></td>
+    <td class="s7"></td>
+    <td class="s7"></td>
+    <td class="s7"></td>
+    <td class="s7"></td>
+    <td class="s7"></td>
+    <td class="s7"></td>
+    <td class="s7"></td>
+    <td class="s8"></td>
+    <td class="s9"></td></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R19" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s10" dir="ltr" colspan="8"><img src="https://i.ibb.co/w4HLVZq/secondaryskills.png"></td>
+    <td class="s8"></td>
+    <td class="s3"></td>
+</tr>
+</tr>
+</tbody></table>
+
+<table class="waffle" cellspacing="0" cellpadding="0">
+<thead>
+<tr>
+    <th class="row-header freezebar-origin-ltr"></th>
+    <th id="696360236C0" style="width:128px" class="column-headers-background"></th>
+    <th id="696360236C1" style="width:29px" class="column-headers-background"></th>
+    <th id="696360236C2" style="width:29px" class="column-headers-background"></th>
+    <th id="696360236C3" style="width:60px" class="column-headers-background"></th>
+    <th id="696360236C4" style="width:60px" class="column-headers-background"></th>
+    <th id="696360236C5" style="width:60px" class="column-headers-background"></th>
+    <th id="696360236C6" style="width:60px" class="column-headers-background"></th>
+    <th id="696360236C7" style="width:60px" class="column-headers-background"></th>
+    <th id="696360236C8" style="width:30px" class="column-headers-background"></th>
+    <th id="696360236C9" style="width:68px" class="column-headers-background"></th>
+    <th id="696360236C10" style="width:45px" class="column-headers-background"></th>
+    <th id="696360236C11" style="width:64px" class="column-headers-background"></th>
+    <th id="696360236C12" style="width:27px" class="column-headers-background"></th>
+</tr></thead><tbody>
+<tr style='height:20px;'><th id="696360236R20" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s4" dir="ltr">Skill Name</td>
+    <td class="s4" dir="ltr">KS</td>
+    <td class="s4" dir="ltr">F</td>
+    <td class="s4" dir="ltr">P. Att</td>
+    <td class="s0" dir="ltr">Total</td>
+    <td class="s4" dir="ltr">Att. Mod</td>
+    <td class="s4" dir="ltr">Rank</td>
+    <td class="s20" dir="ltr">Misc. 1</td>
+    <td class="s11" dir="ltr">Misc. 2</td>
+    <td class="s8"></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R47" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_AnHandling' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Animal Handling}} {{roll=[[1d20 + @{AnHandlingTotal}]]}}'></button>Animal Handling</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_AnHandlingKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_AnHandlingF' value='1' /></form></td>
+    <td class="s5" dir="ltr">WIS</td>
+    <td class="s18"><input type="text" style="width:35px" name="attr_AnHandlingTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_AnHandlingAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_AnHandlingRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_AnHandlingMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_AnHandlingMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s3" dir="ltr" colspan="2">Vital Statistics</td>
+</tr>
+<tr style='height:20px;'><th id="696360236R21" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s12" dir="ltr"><button type='roll' name='roll_Appraise' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Appraise}} {{roll=[[1d20 + @{AppTotal}]]}}'></button>Appraise</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_AppKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_AppF' value='1' /></form></td>
+    <td class="s5" dir="ltr">INT</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_AppTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_AppAMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_AppRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_AppMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_AppMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s19" dir="ltr" colspan="2">Hit Points</td>
+    <td class="s13" dir="ltr"><input type="text" style="width:35px" name="attr_HP"></form></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R22" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Balance' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Balance}} {{roll=[[1d20 + @{BalanceTotal}]]}}'></button>Balance</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_BalanceKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_BalanceF' value='1' /></form></td>
+    <td class="s5" dir="ltr">DEX</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_BalanceTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_BalanceAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_BalanceRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_BalanceMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_BalanceMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s19" dir="ltr" colspan="2">NL Hit Points</td>
+    <td class="s13" dir="ltr"><input type="text" style="width:35px" name="attr_NLHP"></form></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R23" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Bluff' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Bluff}} {{roll=[[1d20 + @{BluffTotal}]]}}'></button>Bluff</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_BluffKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_BluffF' value='1' /></form></td>
+    <td class="s5" dir="ltr">CHA</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_BluffTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_BluffAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_BluffRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_BluffMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_BluffMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s19" dir="ltr" colspan="2">DMG Reduction</td>
+    <td class="s13" dir="ltr"><input type="text" style="width:35px" name="attr_AppDMGR"></form></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R24" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Climb' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Climb}} {{roll=[[1d20 + @{ClimbTotal}]]}}'></button>Climb</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_ClimbKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_ClimbF' value='1' /></form></td>
+    <td class="s5" dir="ltr">STR</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_ClimbTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_ClimbAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_ClimbRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_ClimbMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_ClimbMisc2"></form></td>
+    <td class="s3"></td>
+    <td class="s19" dir="ltr" colspan="2">Land Speed</td>
+    <td class="s13" dir="ltr"><input type="text" style="width:35px" name="attr_LandSpeed"></form></td></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R25" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Concentration' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Concentration}} {{roll=[[1d20 + @{ConTotal}]]}}'></button>Concentration</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_ConKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_ConF' value='1' /></form></td>
+    <td class="s5" dir="ltr">CON</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_ConTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_ConAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_ConRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_ConMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_ConMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s12" dir="ltr" colspan="2">Water Speed</td>
+    <td class="s16" dir="ltr"><input type="text" style="width:35px" name="attr_WaterSpeed"></form></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R26" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Cooking' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Cooking}} {{roll=[[1d20 + @{CookingTotal}]]}}'></button>Cooking</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_CookingKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_CookingF' value='1' /></form></td>
+    <td class="s5" dir="ltr">WIS</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_CookingTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_CookingAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_CookingRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_CookingMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_CookingMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R27" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Diplomacy' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Diplomacy}} {{roll=[[1d20 + @{DiplomacyTotal}]]}}'></button>Diplomacy</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_DiplomacyKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_DiplomacyF' value='1' /></form></td>
+    <td class="s5" dir="ltr">CHA</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_DiplomacyTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_DiplomacyAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_DiplomacyRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_DiplomacyMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_DiplomacyMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s9" dir="ltr" colspan="3">Resistances</td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R28" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Engineering' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Engineering}} {{roll=[[1d20 + @{EngineeringTotal}]]}}'></button>Engineering</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_EngineeringKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_EngineeringF' value='1' /></form></td>
+    <td class="s5" dir="ltr">WIS</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_EngineeringTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_EngineeringAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_EngineeringRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_EngineeringMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_EngineeringMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s19" dir="ltr" colspan="2">F. Resistance</td>
+    <td class="s13" dir="ltr"><input type="text" style="width:35px" name="attr_FResistance"></form></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R29" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_EscapeArtist' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Escape Artist}} {{roll=[[1d20 + @{EscArtistTotal}]]}}'></button>Escape Artist</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_EscArtistKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_EscArtistF' value='1' /></form></td>
+    <td class="s5" dir="ltr">DEX</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_EscArtistTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_EscArtistAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_EscArtistRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_EscArtistMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_EscArtistMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s19" dir="ltr" colspan="2">I. Resistance</td>
+    <td class="s13" dir="ltr"><input type="text" style="width:35px" name="attr_IResistance"></form></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R30" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_GatherInformation' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Gather Information}} {{roll=[[1d20 + @{GatherInfoTotal}]]}}'></button>Gather Info</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_GatherInfoKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_GatherInfoF' value='1' /></form></td>
+    <td class="s5" dir="ltr">CHA</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_GatherInfoTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_GatherInfoAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_GatherInfoRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_GatherInfoMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_GatherInfoMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s19" dir="ltr" colspan="2">L. Resistance</td>
+    <td class="s13" dir="ltr"><input type="text" style="width:35px" name="attr_LResistance"></form></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R31" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Heal' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Heal}} {{roll=[[1d20 + @{HealTotal}]]}}'></button>Heal</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_HealKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_HealF' value='1' /></form></td>
+    <td class="s5" dir="ltr">WIS</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_HealTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_HealAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_HealRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_HealMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_HealMisc2"></form></td>
+    <td class="s3"></td>
+    <td class="s19" dir="ltr" colspan="2">A. Resistance</td>
+    <td class="s13" dir="ltr"><input type="text" style="width:35px" name="attr_AResistance"></form></td>
+    <td class="s7"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R32" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Hide' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Hide}} {{roll=[[1d20 + @{HideTotal}]]}}'></button>Hide</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_HideKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_HideF' value='1' /></td>
+    <td class="s5" dir="ltr">DEX</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_HideTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_HideAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_HideRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_HideMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_HideMisc2"></form></td>
+    <td class="s6"></td>
+    <td class="s7" dir="ltr" colspan="2">S. Resistance</td>
+    <td class="s7" dir="ltr"><input type="text" style="width:35px" name="attr_SResistance"></form></td>
+    <td class="s8"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R33" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Intimidate' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Intimidate}} {{roll=[[1d20 + @{IntimidateTotal}]]}}'></button>Intimidate</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_IntimidateKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_IntimidateF' value='1' /></form></td>
+    <td class="s5" dir="ltr">CHA</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_IntimidateTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_IntimidateAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_IntimidateRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_IntimidateMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_IntimidateMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s6" dir="ltr" colspan="3" rowspan="15"></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R32" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Invent' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Invent}} {{roll=[[1d20 + @{InventTotal}]]}}'></button>Invent</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_InventKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_InventF' value='1' /></td>
+    <td class="s5" dir="ltr">INT</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_InventTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_InventAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_InventRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_InventMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_InventMisc2"></form></td>
+    <td class="s8"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R34" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Knowledge' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Knowledge}} {{roll=[[1d20 + @{KnowledgeTotal}]]}}'></button>Knowledge</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_KnowledgeKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_KnowledgeF' value='1' /></form></td>
+    <td class="s5" dir="ltr">WIS</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_KnowledgeTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_KnowledgeAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_KnowledgeRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_KnowledgeMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_KnowledgeMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R35" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Jump' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Jump}} {{roll=[[1d20 + @{JumpTotal}]]}}'></button>Jump</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_JumpKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_JumpF' value='1' /></form></td>
+    <td class="s5" dir="ltr">STR</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_JumpTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_JumpAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_JumpRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_JumpMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_JumpMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R36" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Listen' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Listen}} {{roll=[[1d20 + @{ListenTotal}]]}}'></button>Listen</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_ListenKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_ListenF' value='1' /></form></td>
+    <td class="s5" dir="ltr">WIS</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_ListenTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_ListenAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_ListenRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_ListenMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_ListenMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R37" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_MoveSilently' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Move Silently}} {{roll=[[1d20 + @{MoveSilentlyTotal}]]}}'></button>Move Silently</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_MoveSilentlyKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_MoveSilentlyF' value='1' /></form></td>
+    <td class="s5" dir="ltr">DEX</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_MoveSilentlyTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_MoveSilentlyAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_MoveSilentlyRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_MoveSilentlyMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_MoveSilentlyMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R32" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Navigate' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Navigate}} {{roll=[[1d20 + @{NavTotal}]]}}'></button>Navigate</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_NavKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_NavF' value='1' /></td>
+    <td class="s5" dir="ltr">INT</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_NavTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_NavAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_NavRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_NavMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_NavMisc2"></form></td>
+    <td class="s8"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R38" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Research' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Research}} {{roll=[[1d20 + @{ResearchTotal}]]}}'></button>Research</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_ResearchKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_ResearchF' value='1' /></form></td>
+    <td class="s5" dir="ltr">WIS</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_ResearchTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_ResearchAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_ResearchRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_ResearchMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_ResearchMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R39" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Perform' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Perform}} {{roll=[[1d20 + @{PerformTotal}]]}}'></button>Perform</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_PerformKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_PerformF' value='1' /></form></td>
+    <td class="s5" dir="ltr">DEX/CHA</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_PerformTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_PerformAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_PerformRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_PerformMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_PerformMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s3" dir="ltr"><br></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R40" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Sailing' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Sailing}} {{roll=[[1d20 + @{SailingTotal}]]}}'></button>Sailing</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_SailingKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_SailingF' value='1' /></form></td>
+    <td class="s5" dir="ltr">WIS</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_SailingTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_SailingAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_SailingRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_SailingMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_SailingMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R41" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Search' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Search}} {{roll=[[1d20 + @{SearchTotal}]]}}'></button>Search</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_SearchKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_SearchF' value='1' /></form></td>
+    <td class="s5" dir="ltr">INT</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_SearchTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_SearchAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_SearchRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_SearchMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_SearchMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R42" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_SenseMotive' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Sense Motive}} {{roll=[[1d20 + @{SenseMotiveTotal}]]}}'></button>Sense Motive</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_SenseMotiveKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_SenseMotiveF' value='1' /></form></td>
+    <td class="s5" dir="ltr">WIS</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_SenseMotiveTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_SenseMotiveAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_SenseMotiveRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_SenseMotiveMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_SenseMotiveMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R43" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_SlightofHand' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Slight of Hand}} {{roll=[[1d20 + @{SoHTotal}]]}}'></button>Slight of Hand</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_SoHKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_SoHF' value='1' /></form></td>
+    <td class="s5" dir="ltr">DEX</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_SoHTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_SoHAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_SoHRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_SoHMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_SoHMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R44" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Spot' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Spot}} {{roll=[[1d20 + @{SpotTotal}]]}}'></button>Spot</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_SpotKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_SpotF' value='1' /></form></td>
+    <td class="s5" dir="ltr">WIS</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_SpotTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_SpotAttmod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_SpotRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_SpotMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_SpotMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R45" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Trapping' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Trapping}} {{roll=[[1d20 + @{TrappingTotal}]]}}'></button>Trapping</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_TrappingKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_TrappingF' value='1' /></form></td>
+    <td class="s5" dir="ltr">DEX</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_TrappingTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_TrappingAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_TrappingRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_TrappingMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_TrappingMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R46" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Tumble' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Tumble}} {{roll=[[1d20 + @{TumbleTotal}]]}}'></button>Tumble</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_TumbleKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_TumbleF' value='1' /></form></td>
+    <td class="s5" dir="ltr">DEX</td>
+    <td class="s14"><input type="text" style="width:35px" name="attr_TumbleTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_TumbleAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_TumbleRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_TumbleMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_TumbleMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R47" style="height: 20px;" class="row-headers-background"></th>
+<td class="s12" dir="ltr"><button type='roll' name='roll_Ride' value='&{template:SSkillCheck} {{name=@{character_name}}} {{subtags=Ride}} {{roll=[[1d20 + @{RideTotal}]]}}'></button>Ride</td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_RideKS' value='1' /></form></td>
+    <td class="s5" dir="ltr"><input type='checkbox' name='attr_RideF' value='1' /></form></td>
+    <td class="s5" dir="ltr">DEX</td>
+    <td class="s18"><input type="text" style="width:35px" name="attr_RideTotal"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_RideAttMod"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_RideRank"></form></td>
+    <td class="s5" dir="ltr"><input type="text" style="width:40px" name="attr_RideMisc1"></form></td>
+    <td class="s6" dir="ltr"><input type="text" style="width:40px" name="attr_RideMisc2"></form></td>
+    <td class="s8"></td>
+    <td class="s3"></td>
+</tr>
+<tr style='height:20px;'><th id="696360236R48" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td class="s3"></td>
+    <td></td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+    <div class="sheet-section-inventory"><!-- Inventory Tab -->
+    <img src="https://i.ibb.co/BLLxmY8/one-piece-logo-by-zerocustom1989-d1dghop.png">
+    <div class="ritz grid-container" dir="ltr"><table class="waffle" cellspacing="0" cellpadding="0"><thead>
+<tr><th class="row-header freezebar-origin-ltr"></th>
+    <th id="398255767C0" style="width:41px" class="column-headers-background"></th>
+    <th id="398255767C1" style="width:62px" class="column-headers-background"></th>
+    <th id="398255767C2" style="width:30px" class="column-headers-background"></th>
+    <th id="398255767C3" style="width:31px" class="column-headers-background"></th>
+    <th id="398255767C4" style="width:26px" class="column-headers-background"></th>
+    <th id="398255767C5" style="width:38px" class="column-headers-background"></th>
+    <th id="398255767C6" style="width:42px" class="column-headers-background"></th>
+    <th id="398255767C7" style="width:26px" class="column-headers-background"></th>
+    <th id="398255767C8" style="width:41px" class="column-headers-background"></th>
+    <th id="398255767C9" style="width:15px" class="column-headers-background"></th>
+    <th id="398255767C10" style="width:46px" class="column-headers-background"></th>
+    <th id="398255767C11" style="width:38px" class="column-headers-background"></th>
+    <th id="398255767C12" style="width:246px" class="column-headers-background"></th>
+    <th id="398255767C13" style="width:33px" class="column-headers-background"></th>
+    <th id="398255767C14" style="width:33px" class="column-headers-background"></th>
+    <th id="398255767C15" style="width:19px" class="column-headers-background"></th>
+</tr></thead><tbody>
+<tr style='height:20px;'><th id="398255767R0" style="height: 20px;" class="row-headers-background"></th>
+<h><img src="https://i.ibb.co/8rfXPHW/Loot.png"></h>
+    <td class="s0" dir="ltr" colspan="2">Weapons</td>
+    <td class="s1" dir="ltr" colspan="2">Weapon Equipped</td>
+    <td class="s1" dir="ltr" colspan="2">DMG</td>
+    <td class="s1" dir="ltr" colspan="2">Type</td>
+    <td class="s1" dir="ltr" colspan="2">Range</td>
+    <td class="s1" dir="ltr" colspan="2">Crit Info</td>
+    <td class="s1" dir="ltr" colspan="2">Attack Modifier</td></td>
+    <td class="s4" dir="ltr"></td>
+    <td class="s4" dir="ltr"></td>
+    <td class="s5" dir="ltr"></td>
+    <td class="s6"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R1" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" dir="ltr" colspan="2">Main</td>
+    <td class="s7" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_MainWepName"></form></td>
+    <td class="s8" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_MainDMG"></form></td>
+    <td class="s8" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_MainType"></form></td>
+    <td class="s8" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_MainRange"></form></td>
+    <td class="s9" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_MainCrit"></form></td>
+    <td class="s9" dir="ltr" colspand="2"><input type="text" style="width:55px" name="attr_MainAttMod"></form></td>
+    <td class="s9" dir="ltr"></td>
+    <td class="s9" dir="ltr"></td>
+    <td class="s11"></td>
+    <td class="s12"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R2" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s13" dir="ltr" colspan="2">Offhand</td>
+    <td class="s7" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_OffWepName"></form></td>
+    <td class="s14" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_OffDMG"></form></td>
+    <td class="s14" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_OffType"></form></td>
+    <td class="s14" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_OffRange"></form></td>
+    <td class="s15" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_OffCrit"></form></td>
+    <td class="s15" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_OffAttMod"></td>
+    <td class="s16" dir="ltr"></td>
+    <td class="s16" dir="ltr"></td>
+    <td class="s11"></td>
+    <td class="s6"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R2" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s13" dir="ltr" colspan="2">Other</td>
+    <td class="s7" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_OthWepName"></form></td>
+    <td class="s14" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_OthfDMG"></form></td>
+    <td class="s14" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_OthType"></form></td>
+    <td class="s14" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_OthRange"></form></td>
+    <td class="s15" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_OthCrit"></form></td>
+    <td class="s15" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_OthAttMod"></td>
+    <td class="s16" dir="ltr"></td>
+    <td class="s16" dir="ltr"></td>
+    <td class="s11"></td>
+    <td class="s6"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R2" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s13" dir="ltr" colspan="2">Other 2</td>
+    <td class="s7" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_Oth2WepName"></form></td>
+    <td class="s14" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_Oth2DMG"></form></td>
+    <td class="s14" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_Oth2Type"></form></td>
+    <td class="s14" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_Oth2Range"></form></td>
+    <td class="s15" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_Oth2Crit"></form></td>
+    <td class="s15" dir="ltr" colspan="2"><input type="text" style="width:55px" name="attr_Oth2AttMod"></td>
+    <td class="s16" dir="ltr"></td>
+    <td class="s16" dir="ltr"></td>
+    <td class="s11"></td>
+    <td class="s6"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R3" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s14" colspan="2"></td>
+    <td class="s14" colspan="2"></td>
+    <td class="s14" colspan="2"></td>
+    <td class="s14" colspan="2"></td>
+    <td class="s15" colspan="3"></td>
+    <td class="s10"></td>
+    <td class="s9" dir="ltr"></td>
+    <td class="s9" dir="ltr"></td>
+    <td class="s11"></td>
+    <td class="s12"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R4" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s1" dir="ltr" colspan="2">Accessories</td>
+    <td class="s1" dir="ltr" colspan="2">Bonuses</td>
+    <td class="s1" dir="ltr" colspan="2">Type</td>
+    <td class="s1" dir="ltr" colspan="2">Range</td>
+    <td class="s2" dir="ltr" colspan="3">Crit Info</td>
+    <td class="s17"></td>
+    <td class="s9" dir="ltr">Item</td>
+    <td class="s9" dir="ltr">Qty</td>
+    <td class="s11">Wg.</td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R5" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" dir="ltr" colspan="2">Accessory 1</td>
+    <td class="s8" colspan="2"><input type="text" style="width:55px" name="attr_Acc1Bonus"></form></td>
+    <td class="s8" colspan="2"><input type="text" style="width:55px" name="attr_Acc1Type"></form></td>
+    <td class="s8" colspan="2"><input type="text" style="width:55px" name="attr_Acc1Range"></form></td>
+    <td class="s11" colspan="3"><input type="text" style="width:55px" name="attr_Acc1CritInfo"></form></td>
+    <td class="s3"></td>
+    <td class="s16" dir="ltr"><input type="text" style="width:200px" name="attr_Item1"></td>
+    <td class="s16" dir="ltr"><input type="text" style="width:30px" name="attr_Item1Qty"></td>
+    <td class="s11"><input type="text" style="width:30px" name="attr_Item1Wg"></td>
+    <td class="s6"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R6" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s13" dir="ltr" colspan="2">Accessory 2</td>
+    <td class="s14" colspan="2"><input type="text" style="width:55px" name="attr_Acc2Bonus"></form></td>
+    <td class="s14" colspan="2"><input type="text" style="width:55px" name="attr_Acc2Type"></td>
+    <td class="s14" colspan="2"><input type="text" style="width:55px" name="attr_Acc2Range"></td>
+    <td class="s19" colspan="3"><input type="text" style="width:55px" name="attr_Acc2CritInfo"></td>
+    <td class="s10"></td>
+    <td class="s9" dir="ltr"><input type="text" style="width:200px" name="attr_Item2"></td>
+    <td class="s9" dir="ltr"><input type="text" style="width:30px" name="attr_Item2Qty"></td>
+    <td class="s11"><input type="text" style="width:30px" name="attr_Item2Wg"></td>
+    <td class="s12"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R7" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s20"></td>
+    <td class="s20"></td>
+    <td class="s20"></td>
+    <td class="s21"></td>
+    <td class="s20"></td>
+    <td class="s20"></td>
+    <td class="s20"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s18"></td>
+    <td class="s3"></td>
+    <td class="s16" dir="ltr"><input type="text" style="width:200px" name="attr_Item3"></td>
+    <td class="s16" dir="ltr"><input type="text" style="width:30px" name="attr_Item3Qty"></td>
+    <td class="s11"><input type="text" style="width:30px" name="attr_Item3Wg"></td>
+    <td class="s6"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R8" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s4" dir="ltr" colspan="2">Armor Type</td>
+    <td class="s1" dir="ltr" colspan="3">Defense</td>
+    <td class="s1" dir="ltr" colspan="2">Bonuses</td>
+    <td class="s2" dir="ltr" colspan="3">Type</td>
+    <td class="s18"></td>
+    <td class="s10"></td>
+    <td class="s9" dir="ltr"><input type="text" style="width:200px" name="attr_Item4"></td>
+    <td class="s9" dir="ltr"><input type="text" style="width:30px" name="attr_Item4Wg"></td>
+    <td class="s11"><input type="text" style="width:30px" name="attr_Item4Qty"></td>
+    <td class="s12"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R9" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" dir="ltr" colspan="2">Head</td>
+    <td class="s8" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_HeadArmourDef"></form></td>
+    <td class="s8" dir="ltr" colspan="2"><input type="text" style="width:80px" name="attr_HeadArmourBonus"></td>
+    <td class="s9" dir="ltr" colspan="3"><input type="text" style="width:80px" name="attr_HeadArmourType"></td>
+    <td class="s18"></td>
+    <td class="s17"></td>
+    <td class="s9" dir="ltr"><input type="text" style="width:200px" name="attr_Item5"></td>
+    <td class="s9" dir="ltr"><input type="text" style="width:30px" name="attr_Item5Qty"></td>
+    <td class="s11" dir="ltr"><input type="text" style="width:30px" name="attr_Item5Wg"></td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R10" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" dir="ltr" colspan="2">Body</td>
+    <td class="s8" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_BodyArmourDef"></td>
+    <td class="s8" dir="ltr" colspan="2"><input type="text" style="width:80px" name="attr_BodyArmourBonus"></td>
+    <td class="s9" dir="ltr" colspan="3"><input type="text" style="width:80px" name="attr_BodyArmourType"></td>
+    <td class="s18"></td>
+    <td class="s17"></td>
+    <td class="s9" dir="ltr"><input type="text" style="width:200px" name="attr_Item6"></td>
+    <td class="s9" dir="ltr"><input type="text" style="width:30px" name="attr_Item6Qty"></td>
+    <td class="s11"><input type="text" style="width:30px" name="attr_Item6Wg"></td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R11" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" dir="ltr" colspan="2">Arm</td>
+    <td class="s8" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_ArmArmourDef"></td>
+    <td class="s8" dir="ltr" colspan="2"><input type="text" style="width:80px" name="attr_ArmArmourBonus"></td>
+    <td class="s9" dir="ltr" colspan="3"><input type="text" style="width:80px" name="attr_ArmArmourType"></td>
+    <td class="s18"></td>
+    <td class="s17"></td>
+    <td class="s9" dir="ltr"><input type="text" style="width:200px" name="attr_Item7"></td>
+    <td class="s9" dir="ltr"><input type="text" style="width:30px" name="attr_Item7Qty"></td>
+    <td class="s11"><input type="text" style="width:30px" name="attr_Item7Wg"></td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R12" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" dir="ltr" colspan="2">Leg</td>
+    <td class="s8" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_LegArmourDef"></td>
+    <td class="s8" dir="ltr" colspan="2"><input type="text" style="width:80px" name="attr_LegArmourBonus"></td>
+    <td class="s9" dir="ltr" colspan="3"><input type="text" style="width:80px" name="attr_LegArmourType"></td>
+    <td class="s18"></td>
+    <td class="s17"></td>
+    <td class="s11"><input type="text" style="width:200px" name="attr_Item8"></td>
+    <td class="s11"><input type="text" style="width:30px" name="attr_Item8Qty"></td>
+    <td class="s11"><input type="text" style="width:30px" name="attr_Item8Wg"></td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R13" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s13" dir="ltr" colspan="2">Foot</td>
+    <td class="s14" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_FootArmourDef"></td>
+    <td class="s14" dir="ltr" colspan="2"><input type="text" style="width:80px" name="attr_FootArmourBonus"></td>
+    <td class="s15" dir="ltr" colspan="3"><input type="text" style="width:80px" name="attr_FootArmourType"></td>
+    <td class="s18"></td>
+    <td class="s17"></td>
+    <td class="s19" dir="ltr"><input type="text" style="width:200px" name="attr_Item9"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item9Qty"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item9Wg"></td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R14" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s19" dir="ltr"><input type="text" style="width:200px" name="attr_Item10"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item10Qty"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item10Wg"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R14" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s19" dir="ltr"><input type="text" style="width:200px" name="attr_Item11"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item11Qty"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item11Wg"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R14" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s19" dir="ltr"><input type="text" style="width:200px" name="attr_Item12"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item12Qty"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item12Wg"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R14" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s19" dir="ltr"><input type="text" style="width:200px" name="attr_Item13"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item13Qty"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item13Wg"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R14" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s19" dir="ltr"><input type="text" style="width:200px" name="attr_Item14"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item14Qty"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item14Wg"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R14" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s19" dir="ltr"><input type="text" style="width:200px" name="attr_Item15"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item15Qty"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item15Wg"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R14" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s19" dir="ltr"><input type="text" style="width:200px" name="attr_Item16"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item16Qty"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item16Wg"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R14" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s19" dir="ltr"><input type="text" style="width:200px" name="attr_Item17"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item17Qty"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item17Wg"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R14" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s19" dir="ltr"><input type="text" style="width:200px" name="attr_Item18"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item18Qty"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item18Wg"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R14" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s19" dir="ltr"><input type="text" style="width:200px" name="attr_Item19"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item19Qty"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item19Wg"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R14" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s19" dir="ltr"><input type="text" style="width:200px" name="attr_Item20"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item20Qty"></td>
+    <td class="s19"><input type="text" style="width:30px" name="attr_Item20Wg"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td class="s21"></td>
+    <td></td>
+</tr>
+        </div>
+        </div>
+
+    <div class="sheet-section-feats"><!-- Feats Tab -->
+    <img src="https://i.ibb.co/BLLxmY8/one-piece-logo-by-zerocustom1989-d1dghop.png">
+        <div class="ritz grid-container" dir="ltr"><table class="waffle" cellspacing="0" cellpadding="0"><thead>
+<tr><th class="row-header freezebar-origin-ltr"></th>
+    <th id="398255767C0" style="width:41px" class="column-headers-background"></th>
+    <th id="398255767C1" style="width:62px" class="column-headers-background"></th>
+    <th id="398255767C2" style="width:30px" class="column-headers-background"></th>
+    <th id="398255767C3" style="width:31px" class="column-headers-background"></th>
+    <th id="398255767C4" style="width:26px" class="column-headers-background"></th>
+    <th id="398255767C5" style="width:38px" class="column-headers-background"></th>
+    <th id="398255767C6" style="width:42px" class="column-headers-background"></th>
+    <th id="398255767C7" style="width:26px" class="column-headers-background"></th>
+    <th id="398255767C8" style="width:41px" class="column-headers-background"></th>
+    <th id="398255767C9" style="width:15px" class="column-headers-background"></th>
+    <th id="398255767C10" style="width:46px" class="column-headers-background"></th>
+    <th id="398255767C11" style="width:38px" class="column-headers-background"></th>
+    <th id="398255767C12" style="width:246px" class="column-headers-background"></th>
+    <th id="398255767C13" style="width:33px" class="column-headers-background"></th>
+    <th id="398255767C14" style="width:33px" class="column-headers-background"></th>
+    <th id="398255767C15" style="width:19px" class="column-headers-background"></th>
+</tr></thead><tbody>
+<tr style='height:20px;'><th id="398255767R15" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s4" dir="ltr" colspan="2">Feat</td>
+    <td class="s4" dir="ltr" colspan="7">Description</td>
+    <td class="s4" dir="ltr" colspan="3">Feat</td>
+    <td class="s4" dir="ltr" colspan="3">Description</td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R16" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" dir="ltr" colspan="2"><input type="text" style="width:87px" name="attr_Feat1"></td>
+    <td class="s9" dir="ltr" colspan="7"><textarea wrap="on" style="width:210px" name="attr_featdisc1"></textarea></td>
+    <td class="s7" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_Feat2"></td>
+    <td class="s9" dir="ltr" colspan="3"><textarea style="width:210px" name="attr_featdisc2"></textarea></td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R17" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" dir="ltr" colspan="2"><input type="text" style="width:87px" name="attr_Feat3"></td>
+    <td class="s9" dir="ltr" colspan="7"><textarea style="width:210px" name="attr_featdisc3"></textarea></td>
+    <td class="s7" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_Feat4"></td>
+    <td class="s9" dir="ltr" colspan="3"><textarea style="width:210px" name="attr_featdisc4"></textarea></td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R18" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" dir="ltr" colspan="2"><input type="text" style="width:87px" name="attr_Feat5"></td>
+    <td class="s9" dir="ltr" colspan="7"><textarea style="width:210px" name="attr_featdisc5"></textarea></td>
+    <td class="s7" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_Feat6"></td>
+    <td class="s9" dir="ltr" colspan="3"><textarea style="width:210px" name="attr_featdisc6"></textarea></td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R19" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" dir="ltr" colspan="2"><input type="text" style="width:87px" name="attr_Feat7"></td>
+    <td class="s9" dir="ltr" colspan="7"><textarea style="width:210px" name="attr_featdisc7"></textarea></td>
+    <td class="s7" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_Feat8"></td>
+    <td class="s9" dir="ltr" colspan="3"><textarea style="width:210px" name="attr_featdisc8"></textarea></td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R20" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" dir="ltr" colspan="2"><input type="text" style="width:87px" name="attr_Feat9"></td>
+    <td class="s9" dir="ltr" colspan="7"><textarea style="width:210px" name="attr_featdisc9"></textarea></td>
+    <td class="s7" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_Feat10"></td>
+    <td class="s9" dir="ltr" colspan="3"><textarea style="width:210px" name="attr_featdisc10"></textarea></td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R21" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" dir="ltr" colspan="2"><input type="text" style="width:87px" name="attr_Feat11"></td>
+    <td class="s9" dir="ltr" colspan="7"><textarea style="width:210px" name="attr_featdisc11"></textarea></td>
+    <td class="s7" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_Feat12"></td>
+    <td class="s9" dir="ltr" colspan="3"><textarea style="width:210px" name="attr_featdisc12"></textarea></td>
+    <td class="s18"></td>
+    <td class="s10" dir="ltr" colspan="3"></td>
+    <td class="s3">
+</tr>
+<tr style='height:20px;'><th id="398255767R22" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" dir="ltr" colspan="2"><input type="text" style="width:87px" name="attr_Feat13"></td>
+    <td class="s9" dir="ltr" colspan="7"><textarea style="width:210px" name="attr_featdisc13"></textarea></td>
+    <td class="s7" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_Feat14"></td>
+    <td class="s9" dir="ltr" colspan="3"><textarea style="width:210px" name="attr_featdisc14"></textarea></td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R23" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" dir="ltr" colspan="2"><input type="text" style="width:87px" name="attr_Feat15"></td>
+    <td class="s9" dir="ltr" colspan="7"><textarea style="width:210px" name="attr_featdisc15"></textarea></td>
+    <td class="s7" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_Feat16"></td>
+    <td class="s9" dir="ltr" colspan="3"><textarea style="width:210px" name="attr_featdisc16"></textarea></td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R24" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" dir="ltr" colspan="2"><input type="text" style="width:87px" name="attr_Feat17"></td>
+    <td class="s9" dir="ltr" colspan="7"><textarea style="width:210px" name="attr_featdisc17"></textarea></td>
+    <td class="s7" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_Feat18"></td>
+    <td class="s9" dir="ltr" colspan="3"><textarea style="width:210px" name="attr_featdisc18"></textarea></td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R25" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" dir="ltr" colspan="2"><input type="text" style="width:87px" name="attr_Feat19"></td>
+    <td class="s9" dir="ltr" colspan="7"><textarea style="width:210px" name="attr_featdisc19"></textarea></td>
+    <td class="s7" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_Feat20"></td>
+    <td class="s9" dir="ltr" colspan="3"><textarea style="width:210px" name="attr_featdisc20"></textarea></td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R26" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" colspan="2"><input type="text" style="width:87px" name="attr_Feat21"></td>
+    <td class="s9" colspan="7"><textarea style="width:210px" name="attr_featdisc21"></textarea></td>
+    <td class="s7" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_Feat22"></td>
+    <td class="s9" dir="ltr" colspan="3"><textarea style="width:210px" name="attr_featdisc22"></textarea></td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R27" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" colspan="2"><input type="text" style="width:87px" name="attr_Feat23"></td>
+    <td class="s9" colspan="7"><textarea style="width:210px" name="attr_featdisc23"></textarea></td>
+    <td class="s7" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_Feat24"></td>
+    <td class="s9" dir="ltr" colspan="3"><textarea style="width:210px" name="attr_featdisc24"></textarea></td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R28" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" colspan="2"><input type="text" style="width:87px" name="attr_Feat25"></td>
+    <td class="s9" colspan="7"><textarea style="width:210px" name="attr_featdisc25"></textarea></td>
+    <td class="s7" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_Feat26"></td>
+    <td class="s9" dir="ltr" colspan="3"><textarea style="width:210px" name="attr_featdisc26"></textarea>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R29" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" colspan="2"><input type="text" style="width:87px" name="attr_Feat27"></td>
+    <td class="s9" colspan="7"><textarea style="width:210px" name="attr_featdisc27"></textarea></td>
+    <td class="s7" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_Feat28"></td>
+    <td class="s9" dir="ltr" colspan="3"><textarea style="width:210px" name="attr_featdisc28"></textarea>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R30" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" colspan="2"><input type="text" style="width:87px" name="attr_Feat29"></td>
+    <td class="s9" colspan="7"><textarea style="width:210px" name="attr_featdisc29"></textarea></td>
+    <td class="s7" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_Feat30"></td>
+    <td class="s9" dir="ltr" colspan="3"><textarea style="width:210px" name="attr_featdisc30"></textarea>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R31" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" colspan="2"><input type="text" style="width:87px" name="attr_Feat31"></td>
+    <td class="s9" colspan="7"><textarea style="width:210px" name="attr_featdisc31"></textarea></td>
+    <td class="s7" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_Feat32"></td>
+    <td class="s9" dir="ltr" colspan="3"><textarea style="width:210px" name="attr_featdisc32"></textarea>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R32" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" colspan="2"><input type="text" style="width:87px" name="attr_Feat33"></td>
+    <td class="s9" colspan="7"><textarea style="width:210px" name="attr_featdisc33"></textarea></td>
+    <td class="s7" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_Feat34"></td>
+    <td class="s9" dir="ltr" colspan="3"><textarea style="width:210px" name="attr_featdisc34"></textarea>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R33" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" colspan="2"><input type="text" style="width:87px" name="attr_Feat35"></td>
+    <td class="s9" colspan="7"><textarea style="width:210px" name="attr_featdisc35"></textarea></td>
+    <td class="s7" dir="ltr" colspan="3"><input type="text" style="width:87px" name="attr_Feat36"></td>
+    <td class="s9" dir="ltr" colspan="3"><textarea style="width:210px" name="attr_featdisc36"></textarea>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R34" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" colspan="2"></td>
+    <td class="s9" colspan="7"></td>
+    <td class="s7" colspan="3"></td>
+    <td class="s9" colspan="3"></td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R35" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s7" colspan="2"></td>
+    <td class="s9" colspan="7"></td>
+    <td class="s7" colspan="3"></td>
+    <td class="s9" colspan="3"></td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R36" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s13" colspan="2"></td>
+    <td class="s15" colspan="7"></td>
+    <td class="s13" colspan="3"></td>
+    <td class="s15" colspan="3"></td>
+    <td class="s18"></td>
+</tr>
+<tr style='height:20px;'><th id="398255767R37" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s18"></td>
+    <td class="s18"></td>
+    <td class="s18"></td>
+    <td class="s18"></td>
+    <td class="s18"></td>
+    <td class="s18"></td>
+    <td class="s18"></td>
+    <td class="s18"></td>
+    <td class="s18"></td>
+    <td class="s18"></td>
+    <td class="s18"></td>
+    <td class="s18"></td>
+    <td class="s18"></td>
+    <td class="s18"></td>
+    <td class="s18"></td>
+    <td></td>
+    </tbody></table>
+        </div>
+    </div>
+
+    <div class="sheet-section-notes"><!-- Notes Tab -->
+    <img src="https://i.ibb.co/BLLxmY8/one-piece-logo-by-zerocustom1989-d1dghop.png"><br>
+</tr>
+<tr style='height:20px;'><th id="398255767R38" style="height: 20px;" class="row-headers-background"></th>
+    <td class="s10">Notes</td><br>
+    <td class="s12"><textarea name="attr_notes" style="width:250px" Style="height:500px">
+    </textarea></td>
+</tr>
+</tbody></table>
+    </div>
+</div>
+
+<rolltemplate class="sheet-rolltemplate-5eAttack">
+    <div class="container">
+        <div><h1>{{name}}</h1></div>
+        <div><span class="subheader">{{subtags}}</span></div>
+        <div class="arrow-container"><div class="arrow-right"></div></div>
+        <div class="rowcolor"><span class="tcat">Attack: </span>{{attack}}</div>
+        {{#damage}}
+            <div>
+                 <span class="tcat">Damage: </span>{{damage}}
+
+            </div>
+        {{/damage}}
+        {{#rollWasCrit() attack}}
+            <div>
+                    <span class="tcat"></span>{{dmgcrit}}
+            </div>
+        {{/rollWasCrit() attack}}
+        {{#snkattk}}
+            <div>
+                 <span class="tcat">Sneak Attack: </span>{{snkattk}} 
+                 <span class="tcat">Crit: </span>{{snkcrit}}
+            </div>
+        {{/snkattk}}
+    </div>
+</rolltemplate>
+
+<rolltemplate class="sheet-rolltemplate-PSkillCheck">
+	<div class="container">
+		<div><h1>{{name}}<h1></div>
+		<div><span class="subheader">{{subtags}}</span></div>
+		<div class="arrow-container"><div class="arrow-right"></div></div>
+		<div class="rowcolor"><span class="tcat">Roll: </span>{{roll}}</div>
+	</div>
+</rolltemplate>
+
+<rolltemplate class="sheet-rolltemplate-SSkillCheck">
+    <div class="container">
+        <div><h1>{{name}}</h1></div>
+        <div><span class="subheader">{{subtags}}</span></div>
+        <div class="arrow-container"><div class="arrow-right"></div></div>
+        <div class="rowcolor"><span class="tcat">Roll: </span>{{roll}}</div>
+    </div>
+</rolltemplate>
+
+<script type="text/worker">
+const stats = ['str','dex','con','int','wis','cha'];
+stats.forEach(stat => {
+    on(`change:${stat} sheet:opened`, () => {
+        getAttrs([stat], values => {
+            const stat_score = parseInt(values[stat], 10)||0;
+            const stat_modifier = Math.floor(stat_score/2) -5;
+            setAttrs({
+                [`${stat}_mod`]: stat_modifier 
+            });
+        });
+    });
+});
+</script>
